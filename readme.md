@@ -3,5 +3,5 @@ Este repositorio contendrá los trabajos realizados del Módulo **JavaScript**, 
 
 ## Sesión 01 - FUNDAMENTOS DE PROGRAMACIÓN
 
-- Trabajo Nº 01:&nbsp;&nbsp;[**DOCUMENTACIÓN**](./JS_01/readme.md)  
+- Trabajo Nº 01:&nbsp;&nbsp;[**DOCUMENTACIÓN**](./JS_01/)  
 *Semana 9 - Sesión 01(25/07/24)*
