@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #444b5f;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.h1Color {
+  color: #2548aa;
+}
+
+.formField {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.formField input {
+  margin: 5px 0;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #cdcdcd;
+}
+.formField label {
+  margin: 5px 0;
+}
+
+.formApp {
+  width: 50%;
+}
+.formApp button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 8px 10px;
+  background-color: #3d69e2;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.taskApp {
+  width: 50%;
+}
+
+.taskButton {
+  cursor: pointer;
+  padding: 5px 0;
+  background-color: #3d69e2;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.taskItem {
+  display: grid;
+  grid-template-columns: 0.5fr 5fr 0.8fr;
+  padding: 3px 0;
+}/*# sourceMappingURL=style.css.map */

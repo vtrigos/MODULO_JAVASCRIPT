@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="h1Color">Todo List APP</h1>
+
+    <div class="container">
+        <div class="formApp">
+            <h2>INGRESO</h2>
+            <form id="listForm">
+                <div class="formField">
+                    <label for="listName">Name:</label>
+                    <input id="listName" type="text" required />
+                </div>
+                <div class="formField">
+                    <label for="listDate">Date:</label>
+                    <input id="listDate" type="date" required />
+                </div>
+                <div class="formField">
+                    <label for="listAuthor">Author:</label>
+                    <input id="listAuthor" type="text" required />
+                </div>
+                <button type="submit">Crear tarea</button>
+            </form>
+        </div>
+        <div class="taskApp">
+            <h2 id="tasksTitle">NO DATA</h2>
+            <div id="tasks"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

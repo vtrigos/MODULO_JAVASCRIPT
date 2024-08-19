@@ -1,6 +1,11 @@
 # Módulo JavaScript
 Este repositorio contendrá los trabajos realizados del Módulo **JavaScript**, cada trabajo estará debidamente enlazado para su respectiva revisión. 
 
+## Sesión 04 - Event (Eventos)
+
+- Trabajo Nº 04:&nbsp;&nbsp;[**DOCUMENTACIÓN**](./JS_04/)  
+Crear un Todo List aplicando eventos.  
+*Semana 12 - Sesión 01(13/08/24)*
 
 ## Sesión 03 - DOM (Document Object Model)
 
