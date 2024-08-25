@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: steelblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
+	color: black;
+	background-color: #fff6f6;
+}
+
+.backHead {
+	background-color: black;
+}
+
+.textOnline {
+	color: #262d3d;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.textOnlineSub {
+	color: #262d3d;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.titCourses{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #262d3d;
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	text-align: center;
+}
+
+.textOnline span {
+	color: #ffffff;
+}
+
+.deleteCourse {
+	background-color: red;
+	border-radius: 50%;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.submenu #shoppingBasket {
+	display: none;
+}
+
+.submenu:hover #shoppingBasket {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 1;
+	background-color: white;
+	padding: 20px;
+	min-height: 400px;
+	min-width: 300px;
+}
+
+.container .row {
+	margin-bottom: 150px;
+}
+
+.addShopingBasket {
+	margin: 10px 0;
+}
+
+.card {
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	background: white;
+}
+
+@media (min-width: 550px) {
+	.card {
+		text-align: left;
+	}
+}
+
+.info-card {
+	padding: 20px 20px;
+}
+
+.card h4 {
+	min-height: 60px;
+}
+
+.info-card p,
+.card h4 {
+	margin-bottom: 5px;
+}
+
+.info-card .precio {
+	text-decoration: line-through;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.info-card .precio span {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.containerFooter {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.slogan {
+	color: #dfe8ff;
+	margin: 0;
+	padding-bottom: 40px;
+	font-size: 12px;
+	text-align: center;
+}

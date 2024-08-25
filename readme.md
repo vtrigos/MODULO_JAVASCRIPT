@@ -1,6 +1,13 @@
 # Módulo JavaScript
 Este repositorio contendrá los trabajos realizados del Módulo **JavaScript**, cada trabajo estará debidamente enlazado para su respectiva revisión. 
 
+
+## Sesión 05 - Proyecto e-commerce
+
+- Trabajo Nº 05:&nbsp;&nbsp;[**DOCUMENTACIÓN**](./JS_05/)  
+Trabajo realizado en clase. Inclusión de función para borrar items de submenu y Modificación del CSS.
+*Semana 13 - Sesión 01(20/08/24)*
+
 ## Sesión 04 - Event (Eventos)
 
 - Trabajo Nº 04:&nbsp;&nbsp;[**DOCUMENTACIÓN**](./JS_04/)  
